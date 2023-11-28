@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
@@ -15,17 +20,17 @@
         <nav class="wrap container">
             <ul class="list">
                 <li class="list_item">
-                    <a href="" class="link">
-                        Что такое конкурс вернадского?
+                    <a href="#about-contest" class="link">
+                        Про конкурс
                     </a>
                 </li>
                 <li class="list_item">
-                    <a href="" class="link">
+                    <a href="#our-works" class="link">
                         Наши работы
                     </a>
                 </li>
                 <li class="list_item">
-                    <a href="" class="link">
+                    <a href="#our-researches" class="link">
                         Что мы изучаем?
                     </a>
 
@@ -36,16 +41,22 @@
 
     </header>
 
-    <main class="container">
+    <main class="">
         <!-- Slider main container -->
         <div class="swiper">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-                ...
+                <div class="swiper-slide">
+                    <img src="us.jpg" alt="" class="sliderphoto">
+                </div>
+                <div class="swiper-slide">
+                    <img src="view2.jpg" alt="" class="sliderphoto">
+                </div>
+                <div class="swiper-slide">
+                    <img src="20230808_175538.jpg" alt="" class="sliderphoto">
+                </div>
+
             </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
@@ -54,20 +65,149 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
 
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
+
         </div>
-        <section class="about-contest">
-            <h1>
+
+        <section id="about-contest" class="about-contest container ">
+            <h2 class="section-title">
                 Что такое конкурс Вернадского?
-                
-            </h1>
-            <div class="wrapper">
-                <img class="img" src="28_n2077489_big (1).jpg" alt="">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim soluta autem, harum labore perspiciatis assumenda optio eveniet minima impedit necessitatibus!</p>
+
+            </h2>
+            <div class="contest-wrapper">
+                <img class="img" src="PWfaU02dqvA.jpg" alt="">
+                <p>Конкурс Вернадского - конкурс юношеских исследовательских работ, имеющий длительную историю и богатые
+                    традици. Предмет исследования не ограничевается - на конкурс поступают работы естественнонаучного и
+                    гуманитарного направлений.</p>
             </div>
-            
+            <div class="contest-wrapper">
+                <p> Сам конкурс состоит из нескольких этапов,в ходе которых, участникам нужно будет составить
+                    иследовательский текст, очно защитить работу перед жюри и поучавствовать в научной дисскусии со
+                    специалистами.</p>
+                <img class="img" src="6_f77600db8a47.jpg" alt="">
+            </div>
+
         </section>
+        <section id="our-works" class="our-works container">
+            <h2 class="section-title">Наши работы</h2>
+            <div class="work-wrapper">
+                <article class="work-article">
+                    <img src="photo_5384589710493602954_y.jpg" alt="" class="work-img">
+                    <div class="work-text">
+                        <h3>Сбор воды в Унальском хвостохранилище</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quae ipsam quaerat quia quam
+                            incidunt voluptatibus odit dolor, assumenda aut consequuntur ducimus velit optio consectetur
+                            numquam atque itaque suscipit magni nam asperiores quas, quis unde placeat. Ut amet
+                            exercitationem in provident, deserunt fugit animi eaque delectus tempora. Deserunt illo
+                            laboriosam error reprehenderit, quia incidunt est.</p>
+                        <p class="hidden-text ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum
+                            dignissimos alias minima
+                            delectus consequuntur aspernatur enim ipsa culpa libero voluptatem quae magnam earum at.
+                            <br> <a class="font-weight" href="#more-info">Ознакомиться с ислледованием подробнее Вы
+                                можете перейдя в эту вкладку</a>
+                        </p>
+                        <button class="btn-show">Показать еще</button>
+                    </div>
+
+                </article>
+                <article class="work-article">
+                    <img src="discussion.jpg" alt="" class="work-img">
+                    <div class="work-text">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quae ipsam quaerat quia quam
+                            incidunt voluptatibus odit dolor, assumenda aut consequuntur ducimus velit optio consectetur
+                            numquam atque itaque suscipit magni nam asperiores quas, quis unde placeat. Ut amet
+                            exercitationem in provident, deserunt fugit animi eaque delectus tempora. Deserunt illo
+                            laboriosam error reprehenderit, quia incidunt est.</p>
+                        <p class="hidden-text ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos tempora
+                            temporibus quisquam officiis, saepe nihil. </p>
+                        <button class="btn-show">Показать еще</button>
+                    </div>
+                </article>
+                <article class="work-article">
+                    <img src="boris.jpg" alt="" class="work-img">
+                    <div class="work-text">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quae ipsam quaerat quia quam
+                            incidunt voluptatibus odit dolor, assumenda aut consequuntur ducimus velit optio consectetur
+                            numquam atque itaque suscipit magni nam asperiores quas, quis unde placeat. Ut amet
+                            exercitationem in provident, deserunt fugit animi eaque delectus tempora. Deserunt illo
+                            laboriosam error reprehenderit, quia incidunt est.</p>
+                        <p class="hidden-text ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum
+                            dignissimos alias minima
+                            delectus consequuntur aspernatur enim ipsa culpa libero voluptatem quae magnam earum at,
+                            architecto eligendi provident debitis neque quidem!</p>
+                        <button class="btn-show">Показать еще</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="our-researches" class="our-researches container">
+            <h2 class="section-title">Что мы изучаем?</h2>
+            <ul class="researches-list">
+                <li class="researches-elem">
+
+                    <img src="Image Ratio.png" alt="">
+                    <div class="research-info">
+                        <h2 class="section-subtitle">Lorem ipsum dolor sit ame</h2>
+                        <p class="research-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+                            delectus dignissimos illum deserunt, vel ipsa ad, molestiae expedita dolores quia nesciunt
+                            assumenda tenetur veritatis perferendis!</p>
+                    </div>
+                </li>
+                <li class="researches-elem">
+                    <img src="Image Ratio.png" alt="">
+                    <div class="research-info">
+                        <h2 class="section-subtitle">Lorem ipsum dolor sit ame</h2>
+                        <p class="research-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+                            delectus dignissimos illum deserunt, vel ipsa ad, molestiae expedita dolores quia nesciunt
+                            assumenda tenetur veritatis perferendis!</p>
+                    </div>
+                </li>
+                <li class="researches-elem">
+                    <img src="Image Ratio.png" alt="">
+                    <div class="research-info">
+                        <h2 class="section-subtitle">Lorem ipsum dolor sit ame</h2>
+                        <p class="research-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+                            delectus dignissimos illum deserunt, vel ipsa ad, molestiae expedita dolores quia nesciunt
+                            assumenda tenetur veritatis perferendis!</p>
+                    </div>
+                </li>
+                <li class="researches-elem">
+                    <img src="Image Ratio.png" alt="">
+                    <div class="research-info">
+                        <h2 class="section-subtitle">Lorem ipsum dolor sit ame</h2>
+                        <p class="research-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+                            delectus dignissimos illum deserunt, vel ipsa ad, molestiae expedita dolores quia nesciunt
+                            assumenda tenetur veritatis perferendis!</p>
+                    </div>
+                </li>
+            </ul>
+            <article id="more-info" class="more-info">
+                <h2 class="section-subtitle">
+                    Больше информации о нашей работе
+                </h2>
+                <a href="example.docx" download>
+                    <button class="download">Скачать</button>
+                </a>
+
+            </article>
+        </section>
+        <section class="form-wrap container">
+            <h2 class="section-title">Отправьте свой запрос</h2>
+            <form class="form" action="https://formspree.io/f/xoqoolpe" method="POST">
+                <input  name="name" placeholder="Воробьев Иван Иванович" class="form-text">
+                <input  name="email" type="email" placeholder="exapmle@gmail.com" class="form-text">
+                <textarea name="message" type="message" class="area" id="" placeholder="Ваше сообщение" cols="30" rows="10"></textarea>
+                
+                <button class="send-form">Отправить</button>
+            </form>
+
+
+        
+         
+        </section>
+
+
     </main>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js.js"></script>
